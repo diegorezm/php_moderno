@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     font-size: 100%;
+     font: inherit;
+     vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+     display: block;
+}
+
+body {
+     line-height: 1;
+}
+
+ol,
+ul {
+     list-style: none;
+}
+
+blockquote,
+q {
+     quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+     content: '';
+     content: none;
+}
+
+table {
+     border-collapse: collapse;
+     border-spacing: 0;
+}
+
+:root {
+     --background: #f9f4e4;
+     --foreground: #000000;
+     --red: #fff;
+     --primary: #605f4b;
+     --secondary: #9c9e80;
+     --muted: #e0dbcd;
+     --padding: 24px;
+     --padding-sm: 16px;
+     --radius: 4px;
+}
+
+html,
+body {
+     font-family: 'JetBrainsMono', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     background-color: var(--background);
+     color: var(--foreground);
+     font-size: 16px;
+     line-height: 1.5;
+     font-weight: 500;
+     scroll-behavior: smooth;
+     margin: 0;
+     padding: 0;
+}
+
+.container {
+     max-width: 1200px;
+     margin: 0 auto;
+     padding: var(--padding);
+}
+
+.title {
+     text-align: center;
+     margin-bottom: var(--padding);
+}
+
+.exercise-list {
+     list-style-type: none;
+     padding: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
+
+.exercise-item {
+     margin: 10px 0;
+}
+
+.btn {
+     display: inline-block;
+     padding: var(--padding-sm);
+     text-decoration: none;
+     border-radius: var(--radius);
+     transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-primary {
+     background-color: var(--primary);
+     color: var(--red);
+}
+
+.btn-primary:hover {
+     background-color: var(--secondary);
+     color: var(--foreground);
+}
+
+.btn-secondary {
+     background-color: var(--secondary);
+     color: var(--foreground);
+}
+
+.btn-secondary:hover {
+     background-color: var(--primary);
+     color: var(--red);
+}
+
+.btn-outline {
+     border: 2px solid var(--primary);
+     color: var(--primary);
+     background-color: transparent;
+}
+
+.btn-outline:hover {
+     background-color: var(--primary);
+     color: var(--red);
+}
+
+.bg-background {
+     background-color: var(--background);
+}
+
+.muted {
+     color: var(--muted);
+}
